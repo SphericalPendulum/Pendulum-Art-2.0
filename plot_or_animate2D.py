@@ -26,8 +26,8 @@ for i in range(num_layers):
 
 # get information about background
 bg_color = input("Enter the background color of the painting (ex: black or #221100): ")
-x_width = int(input("Enter horizontal width of art: "))
-y_width = int(input("Enter vertical height of art: "))
+x_width = float(input("Enter horizontal width of art: "))
+y_width = float(input("Enter vertical height of art: "))
 
 # let user show or hide the axis
 hide_axis = input("Do you want to hide the axis? [y/n] ")
